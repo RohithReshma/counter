@@ -163,11 +163,11 @@
                 if(today < new Date(theEngagementDate).getTime()){
                     var theDate = theEngagementDate;
                     document.getElementById("whichEvent").innerHTML =  "We Are Getting Engaged";
-                    document.getElementById("inviteDatePlace").innerHTML = "October 26th, 2023 Aluva, Kerala";
+                    document.getElementById("inviteDatePlace").innerHTML = "October 26th, 2023";
                     document.getElementById("eventInvitation").innerHTML = "We invited you to celebrate our engagement";
                 } else {
                     document.getElementById("whichEvent").innerHTML =  "We Are Getting Married";
-                    document.getElementById("inviteDatePlace").innerHTML = "January 31th, 2024 Aluva, Kerala";
+                    document.getElementById("inviteDatePlace").innerHTML = "January 31th, 2024";
                     document.getElementById("eventInvitation").innerHTML = "We invited you to celebrate our wedding.";
                     theDate = theWeddingDate;
                 }
