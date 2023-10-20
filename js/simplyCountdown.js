@@ -254,7 +254,7 @@
 
             // Refresh immediately to prevent a Flash of Unstyled Content
             refresh();
-            interval = window.setInterval(refresh, parameters.refresh);
+            let interval = window.setInterval(refresh, parameters.refresh);
         });
     };
 
